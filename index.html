@@ -1,0 +1,506 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GUIA TURISTICA (ATLIXCO)</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/ayuntamiento.jpg','imagenes/merced.jpg','imagenes/viveros.jpg','imagenes/capilla.jpg','imagenes/panorama.jpg','../../imagenes/Atlixco-Puebla-Foto.jpg','../../imagenes/alberca.JPG')">
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Guia de turismo (ATLIXCO)</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Atlixco</h1>
+<div>
+<img src="imagenes/Atlixco1.jpeg" width="50%" height="50%"/>
+<p>Esta es la imagen de la bella ciudad de Atlixco </p>
+</div>
+</div>
+<div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Autor</h1>
+<div>
+<p> CENTRO DE BACHILLERATO TECNOLOGICO INDUSTRIAL Y DE SERVICIOS No.16 </p> 
+<p>TERCER PARCIAL</p>
+<p> DESARROLLA APLICACIONES MOVILES</p>
+<p> Especialidad: PROGRAMACION </p>
+<p> Profesor: Lic.Jose Antonio Gomez Hernandez</p>
+<p> Semestre: 4 Grupo: "H"</p>
+<p> Alumna: Maria de los Angeles Lopez Tecalero</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-fisrt-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>ATLIXCO</h2>
+<p>Se muestra una  informacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>HISTORIA</h2>
+<p>muestra la historia </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TRADICIONES</h2>
+<p>Muestra algunos de las tradiciones </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LUGARES DE INTERES</h2>
+<p>Muestra algunos lugares de interes</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CERRO DE SAN MIGUEL</h2>
+<p>Muestra el cerrito </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>EX-CONVENTO DEL CARMEN</h2>
+<p>Muestra historia</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> CALLE DE LAS FLORES </h2>
+<p></p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> LUGARES TURISTICOS</h2>
+<p></p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="res/android/Lotus.png"width="56" height="46"> 
+</div>
+<div>
+<h4>GUIA TURISTICA</h4>
+<h4>Maria de los Angeles Lopez Tecalero</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>ATLIXCO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Heroica Atlixco (en nahuatl: atl, ixtlatl, co, ‘agua, valle, lugar’‘Lugar del valle de agua’),también conocido como «Atlixco de las flores», es un municipio que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica»9 debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862.
+
+Es conocido por su buen clima y la gran actividad florística, comercial y turística que le valieron haber sido llamada Atlixco de las Flores y Granero de la Nueva España, durante la época colonial.
+
+El último domingo de septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la sede de un festival en el que se reúnen los representantes de las once regiones culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl» o Fiesta Grande de Atlixco y que es patrimonio cultural del estado de Puebla.
+
+En 1884, el Congreso local decretó que la cabecera municipal de Atlixco se llamara «Atlixco de Múgica y Osorio»; en honor al Benemérito del Estado de Puebla, Juan Múgica y Osorio.</h2>
+<li class="ui-first-child-ui-last-child">
+<a href="http://www.atlixco.gob.mx" data-role="button" id="link">
+ <h2> ATLIXCO </h2>
+ </a>
+ </li>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>GUIA TURISTICA, MALT</h4>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>ATLIXCO DE LAS FLORES</h1>
+<div>
+<img src="imagenes/atlixco.jpg" width="50%" height="50%"/>
+<p>Esta es la imagen de la Bella Ciudad de Atlixco</p>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>LA BELLA CIUDAD DE ATLIXCO DE LAS FLORES</h1>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/atlixco_de_las_flores.jpg',1)"><img src="imagenes/panorama.jpg" width="493" height="352" id="Image50"></a> 
+<p>Esta es la imagen de la Bella Ciudad de Atlixco</p>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>HISTORIA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Hacia el año 1100 d. C. el valle de Atlixco se hallaba ocupado por pobladores de origen Teochichimeca, Chichimeca y Xicalancas que bajo el dominio de la gran Tenochtitlan, se asentaron primeramente al poniente del cerro de San Miguel, hoy Solares Grandes. Estos primeros pueblos fundaron así Quauhquechollan (Águila que huye) y que tiempo después llamaron Acapetlahuacan, "Lugar de división del señorío". Su posición geográfica hizo que fuera escenario de luchas entre los diversos grupos indígenas que estaban asentados en los alrededores. Los pueblos de Calpan, Huejotzingo y Cholula se disputaron en diversas épocas la posesión del valle, que con la llegada de los españoles se encontraba bajo el dominio de Huejotzingo.
+La nueva población que fundaron fue también llamada Quauhquechollan, la actual Huaquechula a donde emigraron los Calpan y los Huejotzincas.
+Al crecer la comunidad española, se realizaron las gestiones necesarias ante la Corona para que se les autorizara la fundación de la Villa de Carrión. Don Pedro del Castillo Maldonado y Cristóbal Ruiz Cabrera fundaron la Villa de Carrión, hoy Atlixco, pasando a ser los primeros Alcaldes Ordinarios como consta en la Primera Acta de Cabildo del 22 de septiembre de 1579. En 1632, la cabecera fue designada independiente de Huejotzingo con 11 poblaciones a su cargo, y el 13 de marzo de 1706 se convirtió en una especie de señorío.Fue concedido por Felipe II en su Real cédula, expedida en Barcelona el 29 de septiembre de 1579.
+El Escudo se halla entre un pabellón de grana con galón de oro, con el cual tiene por cimera una corona con una águila explayada. En su bordadura se halla un cheurrón y uñas cotizas por las que asoma un león naciente y una faja de oro que toca la barba de un escúdete con dos leoncillos en salto y otro rampante y dos columnas verticales. En la partición siniestra del escudo figura el Arcángel San Miguel con flamígera espada por ser el Patrono de la Ciudad de Puebla, de donde salieron los fundadores Villa de Carreón en el Valle de Atlixco; en la parte media del cuartel diestro hay otra águila en color sable y abajo dos barras con un tercer recubierto de oro.
+La fertilidad del Valle hizo que la Villa de Carrión pronto fuera una importante zona agrícola, convirtiéndose ya para principios de siglo XVII en el primer granero de la Nueva España lo que llamó la atención de órdenes religiosas como la de los franciscanos, agustinos, carmelitas, mercedarios, juaninos y la de las monjas clarisas, que llegaron hasta el valle para edificar sus conventos. Atlixco ascendería a la categoría de ciudad el 14 de febrero de 1843 cuando por decreto del entonces presidente general Nicolás Bravo le reconoció su participación en el proceso de Independencia y la declaró ciudad con el nombre de Atlixco. El 19 de octubre de 1847 defiende la soberanía nacional de la invasión estadounidense por medio del batallón Libres de Atlixco quienes vencieron a los estadounidenses. Años más tarde el 4 de mayo de 1862 un día antes de la Batalla de Puebla los atlixquenses repelieron el ataque de las tropas conservadoras de Leonardo Márquez obligándolo a retirarse y de esta forma se evitó que sus tropas llegaran a reforzar a los franceses en Puebla siendo este un factor importante para alcanzar la victoria al día siguiente, este hecho histórico se conoce como la Batalla de Atlixco.
+El 26 de noviembre de 1998 el H. Congreso del Estado declaró Heroica a la Ciudad de Atlixco.10</h2>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>GUIA TURISTICA, MALT</h4>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>ATLIXCO Historia</h1>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/ayuntamiento.jpg',1)"><img src="imagenes/pueblo_magico.jpg" width="470" height="313" id="Image10"></a>
+<p>Esta es la imagen de la Ciudad de Atlixco</p>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>TRADICIONES</h1>
+  </div>
+    <div data-role="content" align="center">
+      <div>
+         <h2>
+   <p> Huey Atlixcáyotl</p>
+<p> Villa Iluminada11</p>
+<p>Tapetes Monumentales</p>
+<p> Fiestas de Reyes</p>
+<p>Desfile de Calaveras12</p>
+<p>Feria de la Nochebuena</p>
+<p>Feria de la Cecina</p>
+<p>Atlixcayotontli</p>
+    </h2>
+      </div>
+     <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>GUIA TURISTICA, MALT</h4>
+      </div>
+  </div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Feria de la Cecina</h1>
+<div>
+<p>Esta es la imagen del platillo </p>
+</div>
+<div>
+<img src="imagenes/cecina.jpg" width="44%" height="37%">
+    </div> 
+  </div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Villa iluminada</h1>
+<div>
+<p>Imagen de la Villa Iluiminada</p>
+</div>
+<div>
+<img src="imagenes/villa.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Desfile de Calaveras</h1>
+<div>
+<p>Imagen del desfile</p>
+</div>
+<div>
+<img src="imagenes/desfile_de_calaveras.jpg" width="50%" height="50%">
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>LUGARES DE INTERES</h1>
+  </div>
+<div data-role="content" align="center">
+      <div>
+        <h2>
+        <p>Hospital Municipal de San Juan de Dios
+Uno de los pocos hospitales de la época de la colonia que sigue conservando su uso original, así como una fuente de piedra que representa a San Adrián luchando con un león.</p>
+
+<p>Pinacoteca San Juan de Dios
+En la Pinacoteca podrás apreciar la colección de la vida de San Juan de Dios, fundador de la orden de los "Juaninos" quienes se encargaban de los hospitales en la Nueva España. El acceso a la pinacoteca municipal se solicita previa cita en las oficinas de turismo. A un lado del hospital se encuentra la iglesia dedicada a San Rafael Arcángel, a quienes los juaninos se encomendaban. </p>
+
+
+<p>Templo de la Merced
+El templo de la merced fundado en 1612 y dentro de ella se resguarda una colección de pinturas invaluables del siglo XVII que hacen alusión a la Orden de Nuestra Señora de la Merced, además podrás admirar la espléndida fachada del templo considerada una obra maestra del estilo barroco de Atlixco.19</p>
+
+<p>Viveros
+Atlixco es un productor agrícola altamente reconocido a nivel nacional e internacional por su gran variedad y calidad de árboles ornamentales y frutales así como de plantas y flores para huerto o decoración.</p>
+</h2>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>GUIA TURISTICA, MALT</h4>
+    </div>
+  </div>
+<div data-role="collapsible" data-content-theme="false">
+<h1> Hospital </h1>
+<div>
+<p>Imagen del Hospital</p>
+</div>
+<div>
+<img src="imagenes/hospital.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Pinacoteca</h1>
+<div>
+<p>Imagen de la Pinacoteca</p>
+</div>
+<div>
+<img src="imagenes/pinoteca.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Templo de la Merced</h1>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/merced.jpg',1)"><img src="imagenes/templo.jpg" width="359" height="247" id="Image12"></a>
+<div>
+<p>Imagen del  templo</p>
+</div>
+</div>
+<div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Viveros</h1>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/viveros.jpg',1)"><img src="imagenes/vivero.jpg" width="347" height="243" id="Image13"></a>
+<div>
+<p>Imagen de los viveros</p>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CERRO DE SAN MIGUEL</h1>
+  </div>
+<div data-role="content" align="center">
+      <div>
+         <h2>el mágico Cerro de San Miguel el cual está enclavado en pleno centro de la ciudad y en este un ex convento de con las características de un castillo medieval.
+ Se dice que Desde antiguo las familias atlixquenses subían al cerro a divertirse, llevaban comida, volaban papalotes, sobre todo durante el mes de septiembre muchos jóvenes ascendían al cerro a partir de las cinco de la mañana para entrar a la ermita y escuchar misa, alumbrados de teas y cantar durante una semana las mañanitas tradicionales al ángel que además es el abogado del diablo en la Corte Celestial.</h2>
+ <li class="ui-first-child-ui-last-child">
+ <a href="http://www.zonaturistica.com/atractivo-turistico/1159/cerro-de-san-miguel-atlixco.html" data-role="button" id="link">
+ <h2>CERRO DE SAN MIGUEL  </h2>
+ </a>
+ </li>
+ </ul>
+    </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Once, MALT</h4>
+    </div>
+  </div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Cerro de San Miguel </h1>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/capilla.jpg',1)"><img src="imagenes/cerro.jpg" width="362" height="269" id="Image14"></a>
+<div>
+<p>Esta es la imegen del cerro de san miguel</p>
+</div>
+</div>   
+<div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Vista Cerro de San Miguel</h1>
+<p><img src="imagenes/sanmiguel.jpg" width="543" height="397"></p>
+<div>
+  <p>Cerro </p>
+  </div>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>EX-CONVENTO DEL CARMEN</h1>
+  </div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/atlixco_puebla.jpg" alt="atlixco_puebla" title="atlixco_puebla" id="wows1_0"/></li>
+		<li><img src="data1/images/atlixco_puebla1.jpg" alt="atlixco_puebla1" title="atlixco_puebla1" id="wows1_1"/></li>
+		<li><img src="data1/images/carmen.jpg" alt="carmen" title="carmen" id="wows1_2"/></li>
+		<li><img src="data1/images/carmen1.jpg" alt="carmen1" title="carmen1" id="wows1_3"/></li>
+		<li><img src="data1/images/elcarmen_atlixco.jpg" alt="elcarmen_atlixco" title="elcarmen_atlixco" id="wows1_4"/></li>
+		<li><img src="data1/images/huey_atlixcayotl.jpg" alt="Huey_Atlixcayotl" title="Huey_Atlixcayotl" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/panoramio.jpg" alt="wowslider.net" title="Panoramio" id="wows1_6"/></a></li>
+		<li><img src="data1/images/poesia.jpg" alt="poesia" title="poesia" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="atlixco_puebla"><span><img src="data1/tooltips/atlixco_puebla.jpg" alt="atlixco_puebla"/>1</span></a>
+		<a href="#" title="atlixco_puebla1"><span><img src="data1/tooltips/atlixco_puebla1.jpg" alt="atlixco_puebla1"/>2</span></a>
+		<a href="#" title="carmen"><span><img src="data1/tooltips/carmen.jpg" alt="carmen"/>3</span></a>
+		<a href="#" title="carmen1"><span><img src="data1/tooltips/carmen1.jpg" alt="carmen1"/>4</span></a>
+		<a href="#" title="elcarmen_atlixco"><span><img src="data1/tooltips/elcarmen_atlixco.jpg" alt="elcarmen_atlixco"/>5</span></a>
+		<a href="#" title="Huey_Atlixcayotl"><span><img src="data1/tooltips/huey_atlixcayotl.jpg" alt="Huey_Atlixcayotl"/>6</span></a>
+		<a href="#" title="Panoramio"><span><img src="data1/tooltips/panoramio.jpg" alt="Panoramio"/>7</span></a>
+		<a href="#" title="poesia"><span><img src="data1/tooltips/poesia.jpg" alt="poesia"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<h2>La segunda orden religiosa que se establece en Atlixco fue la de los carmelitas. Llegaron el 28 de septiembre de 1589, los trámites para la construcción de su iglesia dieron inicio en 1600, cuando los religiosos solicitaron al Cabildo de la Villa de Carrión la autorización para extraer piedra del cerro de San Miguel y emplearla en la construcción de la iglesia del Carmen.
+Sobre los frailes que fungieron como arquitectos de la orden carmelitana se conoce poco, sin embargo sobresale la destreza e ingenio con que resolvieron arquitectónicamente sus obras, a las que les otorgaron un sello característico de buena planeación y ejecución. Los Carmelitas descalzos vivían enclaustrados y el convento e iglesia solo servían a la comunidad española. En 1853 los religiosos fueron enclaustrados, su archivo y biblioteca desaparecieron y en 1857, sus bienes fueron vendidos, la iglesia despojada de sus obras de arte y el convento fue convertido en cuartel militar. La fachada data del siglo XX.</h2>
+<li class="ui-first-child-ui-last-child">
+<a href="http://www.zonaturistica.com/atractivo-turistico/1160/exconvento-del-carmen-atlixco.html" data-role="button" id="link">
+ <h2> EX-CONVENTO </h2>
+ </a>
+ </li>
+<img src="imagenes/carmen.jpg" width="30%" height="26%">
+ <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>GUIA TURISTICA, MALT</h4>
+        </ul>
+  </div>
+</div>
+        </div>
+        </div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CALLE DE LAS FLORES</h1>
+  </div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/atlixco_puebla_pueblo_magico.jpg" alt="atlixco_puebla_pueblo_magico" title="atlixco_puebla_pueblo_magico" id="wows1_0"/></li>
+		<li><img src="data1/images/atlixcopueblacalledelasflores.jpg" alt="Atlixco-Puebla-calle-de-las-flores" title="Atlixco-Puebla-calle-de-las-flores" id="wows1_1"/></li>
+		<li><img src="data1/images/atlixcopueblafoto.jpg" alt="Atlixco-Puebla-Foto" title="Atlixco-Puebla-Foto" id="wows1_2"/></li>
+		<li><img src="data1/images/atlixco_de_las_flores.jpg" alt="atlixco_de_las_flores" title="atlixco_de_las_flores" id="wows1_3"/></li>
+		<li><img src="data1/images/mas_que_flores.jpg" alt="mas_que_flores" title="mas_que_flores" id="wows1_4"/></li>
+		<li><img src="data1/images/pueblo_magico.jpg" alt="pueblo_magico" title="pueblo_magico" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/turismo.jpg" alt="wowslider" title="turismo" id="wows1_6"/></a></li>
+		<li><img src="data1/images/reloj.jpg" alt="reloj" title="reloj" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="atlixco_puebla_pueblo_magico"><span><img src="data1/tooltips/atlixco_puebla_pueblo_magico.jpg" alt="atlixco_puebla_pueblo_magico"/>1</span></a>
+		<a href="#" title="Atlixco-Puebla-calle-de-las-flores"><span><img src="data1/tooltips/atlixcopueblacalledelasflores.jpg" alt="Atlixco-Puebla-calle-de-las-flores"/>2</span></a>
+		<a href="#" title="Atlixco-Puebla-Foto"><span><img src="data1/tooltips/atlixcopueblafoto.jpg" alt="Atlixco-Puebla-Foto"/>3</span></a>
+		<a href="#" title="atlixco_de_las_flores"><span><img src="data1/tooltips/atlixco_de_las_flores.jpg" alt="atlixco_de_las_flores"/>4</span></a>
+		<a href="#" title="mas_que_flores"><span><img src="data1/tooltips/mas_que_flores.jpg" alt="mas_que_flores"/>5</span></a>
+		<a href="#" title="pueblo_magico"><span><img src="data1/tooltips/pueblo_magico.jpg" alt="pueblo_magico"/>6</span></a>
+		<a href="#" title="turismo"><span><img src="data1/tooltips/turismo.jpg" alt="turismo"/>7</span></a>
+		<a href="#" title="reloj"><span><img src="data1/tooltips/reloj.jpg" alt="reloj"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+  <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child-ui-last-child">
+ <a href= "http://soleilinn.com/index.php/atlixco" data-role="button" id="link">
+ <h2>CALLE DE LAS FLORES</h2>
+ </a>
+ </li>
+      <div>
+         <h2>Sobre la Avenida Hidalgo se encuentra esta emblemática calle denominada la Calle de las Flores, donde podrás apreciar sus renovadas fachadas adornadas con flores del municipio. Durante el recorrido podrás apreciar las casonas que fueron reconstruidas, hasta llegar a la Escalera Ancha lugar donde se realizaba el Huey Atlixcayotl y ahora tras su remodelación encontraras un reloj gigante hecho a base de flores.</h2>
+    </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>GUIA TURISTICA, MALT</h4>
+        </div>
+      </ul>
+    </div>
+  </div>
+        <div data-role="collapsible" data-content-theme="false">
+<h1> Calle de las flores Atlixco</h1>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','imagenes/Atlixco-Puebla-Foto.jpg',1)"><img src="imagenes/Atlixco-Puebla-calle-de-las-flores.jpg" width="417" height="317" id="Image48"></a>
+<div>
+  <p> Calle de las flores </p>
+  </div>
+  </div>
+</div>
+  </div>
+  </div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> LUGARES TURISTICOS </h1>
+  </div>
+     <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child-ui-last-child">
+ <a href="http://www.xtremo.mx/xtlines" data-role="button" id="link">
+ <h2>XTREMO Parque</h2>
+ </a>
+ </li>
+ <li class="ui-first-child-ui-last-child">
+ <a href="http://www.balneario-laspalmas.com.mx/balneario.htm" data-role="button" id="link">
+ <h2>BALNEARIO LAS PALMAS</h2>
+ </a>
+ </li>
+ <li class="ui-first-child-ui-last-child">
+ <a href="http://www.puebla.travel/es/ver-hacer/espacios-de-ocio/item/parque-acuatico-ayoa" data-role="button" id="link">
+ <h2>PARQUE RECREATIVO AYOA</h2>
+ </a>
+ </li>
+  <li class="ui-first-child-ui-last-child">
+ <a href="http://centrosvacacionales.imss.gob.mx/Paginas/pagina_metepec_informacion.html" data-role="button" id="link">
+ <h2>CENTRO VACACIONAL DEL IMSS, METEPEC </h2>
+ </a>
+ </li>
+ </ul>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> GUIA TURISTICA, MALT</h4>
+      </div>
+       </div>
+        <div data-role="collapsible" data-content-theme="false">
+<h1>Balneario las Palmas</h1>
+<div>
+<p>Imagen del Balneario</p>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/alberca.JPG',1)"><img src="imagenes/Atlixco_04.jpg" width="493" height="352" id="Image50"></a>
+</div>
+</div>
+  <div data-role="collapsible" data-content-theme="false">
+<h1>XTremo Parque</h1>
+<div><img src="imagenes/Xtreme.jpg" width="600" height="450"></div>
+<p>Imagen del Parque</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</body>
+</html>
